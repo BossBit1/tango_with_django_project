@@ -128,7 +128,8 @@ PASSWORD_HASHERS = [
 
 LOGIN_URL = 'rango:login'
 
-
+#Cookie/session vrbles
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 
 # Internationalization
